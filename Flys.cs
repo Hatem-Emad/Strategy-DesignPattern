@@ -10,14 +10,14 @@ namespace Strategy
     {
         public string Fly { get; }
     }
-    public class FlyHigh : Flys
+    public class FlyHigh : IFlys
     {
         public string Fly => "I fly high";
         public override string ToString()
             => Fly;
         
     }
-    public class CantFly : Flys
+    public class CantFly : IFlys
     {
         public string Fly => "I can't fly";
         public override string ToString()
