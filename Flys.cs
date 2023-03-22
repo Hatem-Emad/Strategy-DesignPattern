@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Strategy
 {
-    internal interface Flys
+    internal interface IFlys
     {
         public string Fly { get; }
     }

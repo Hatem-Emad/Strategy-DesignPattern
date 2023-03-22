@@ -12,6 +12,6 @@ namespace Strategy
         public int Height { get; set; }
         public double Weight { get; set; }
         public string? Sound { get; set; }
-        public Flys? FlyType { get; set; }
+        public IFlys? FlyType { get; set; }
     }
 }
